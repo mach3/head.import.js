@@ -1,0 +1,28 @@
+{
+  "name": "head.import.js",
+  "version": "0.1.0",
+  "authors": [
+    "mach3 <http://github.com/mach3>"
+  ],
+  "description": "Import scripts in data-* attribute by head.js",
+  "main": "dist/head.import.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "head.js",
+    "import"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "demo"
+  ],
+  "dependencies": {
+    "headjs": "~1.0.3"
+  }
+}
