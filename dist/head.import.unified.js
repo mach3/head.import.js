@@ -711,7 +711,7 @@
  * --------------
  * Import scripts in data-* attribute by head.js
  * 
- * @version 0.1.0 (2015-1106-15)
+ * @version 0.1.1 (2015-1106-15)
  * @license MIT
  * @author mach3 <http://github.com/mach3>
  * @url http://github.com/mach3/head.import.js
