@@ -1,6 +1,6 @@
 /*! head.import */
 !function(){
-	var el, path, type, src;
+	var el, path, type, files;
 
 	el = (function(scripts){
 		return scripts[scripts.length-1];
@@ -22,9 +22,9 @@
 		return test ? name === test : name;
 	};
 
-	src = (function(){
+	files = (function(){
 		var data, json, i;
-		data = el.getAttribute("data-src");
+		data = el.getAttribute("data-files");
 		data = data ? data.split(",") : [];
 		try {
 			json = JSON.parse(el.innerHTML);
@@ -40,5 +40,5 @@
 		return data;
 	}());
 
-	head.js.apply(head, src);
+	head.js.apply(head, files);
 }();
